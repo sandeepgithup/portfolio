@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valuepitch</title>
+        <link rel="shortcut icon" type="image/png" href="ic.png">
+        <link rel="stylesheet" href='./files/style.css'>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        
+    </head>
+    <body>
+        
+        <header class="header">
+            
+            <a href="#" class="logo">Valuepitch</a>
+            <nav class="navbar" id="myLinks">
+                <a href="#Home" style="--i:1" class="active" >Home</a>
+                <a href="#About" style="--i:2">About</a>
+                <a href="#Contact" style="--i:5">Contact</a>
+                 <a href="#About" style="--i:5">Apply now</a>
+            </nav>
+        </header>
+
+
+        <section class="home" id="Home">
+            <div class="home-content">
+                
+                
+                <h1 style="color: white;">Innovating <br> For a Safer Society</h1>
+                <h4 style="color: white;"> We are Proud to be part of Valuepitch Group</h4>
+                <h4 style="--i:6">As an illustration <span class="text"></span></h4>
+                    
+                
+                <div class="img">
+                     <img src="https://assets.softr-files.com/applications/7607a144-00a4-45b8-a5a2-c7d447dcdd92/assets/6832c31a-b709-43ef-8abd-6aba251de765.jpeg" class="responsive">
+                </div>
+
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/company/valuepitch/"style="--i:7" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/verify_24x7?igsh=MXM2eWV0a2Y3czNqeQ=="style="--i:8" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.youtube.com/@verify24x7byvaluepitch8"style="--i:9" target="_blank"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://github.com/sandeepgithup/tic-tac-toe"style="--i:10" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+                <a href="https://www.tags24x7.ai/" style="--i:11" class="btn-box" target="_blank">Explore More</a>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="about" id="About">
+                <div class="about-img">
+                    <img src="data:image/jpeg;base64,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"class="abt-res">
+                </div>
+                <div class="about-text">
+                    <h2>About <span>Us</span></h2>
+                    <p>Our standout feature? The Robust Workflow.
+In the busy world of labeling data, we've made a simple process from start to double-check. Imagine tasks, jobs, and reviews all in order with Transpacy. Like teamwork or going solo, it fits just right. No more mess—hello to an easy road to success. Want to know more? Let's talk and make labeling data even better..<br>
+                        <br>
+                        <a href="https://ashraff-2004.erpnext.com/employee-registration-form/new" style="--i:11" class="abtbtn-box" target="_blank">Apply Now</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="Contact">
+            <div class="contact-text">
+                <h2>Contact <span>us</span></h2>
+                <h4>Let's Unite!</h4>
+                <div class="contact-list">
+                    <li><i class='bx bxs-send'></i>info@valuepitch.com</li>
+                    <li><i class="bx bxs-phone-call" ></i>9391890719</li>
+                </div>
+                <div class="contact-icons">
+                    <a href="https://github.com/sandeepgithup/tic-tac-toe" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.youtube.com/@verify24x7byvaluepitch8"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://www.instagram.com/verify_24x7?igsh=MXM2eWV0a2Y3czNqeQ==" target="_blank"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/valuepitch/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+            
+        </section>
+        
+        <div class="last-text">
+            <p>Developed by Sandeep&ashraff <i class='bx bx-copyright' style="color: white;"></i> 2024</p>
+        </div>
+        <a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+
+        <script src="./files/script.js"></script>
+    </body>  
+</html>

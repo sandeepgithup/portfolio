@@ -1,0 +1,38 @@
+
+var typed = new Typed(".text", {
+    strings: ["Tags24*7" , "B2b Testers" , "Crime scan"],
+    typeSpeed:100,
+    backSpeed:100,
+    backDelay:1000,
+    loop:true
+});
+
+
+const toTop = document.querySelector(".top");
+window.addEventListener("scroll",() =>{
+    if (window.pageYOffset > 100){
+        toTop.classList.add("active");
+    }
+    else{
+        toTop.classList.remove("active");
+    }
+})
+window.onload = function() {
+    let element1ToRemove = document.querySelector('#website-post-login > a > span > span');
+    let element2ToRemove = document.querySelector('body > nav > div > a');
+
+    if (element1ToRemove) {
+        element1ToRemove.parentElement.parentElement.remove();
+    }
+
+    if (element2ToRemove) {
+        element2ToRemove.remove();
+    }
+};
+const footerSubscribeButton = document.getElementById('footer-subscribe-button');
+footerSubscribeButton.parentNode.removeChild(footerSubscribeButton);
+const footerSubscribeEmail = document.getElementById('footer-subscribe-email');
+footerSubscribeEmail.parentNode.removeChild(footerSubscribeEmail);
+const poweredByLink = document.querySelector('body > footer > div > div.footer-info > div > div.footer-col-right.col-sm-6.col-12.footer-powered > a');
+const poweredByText = document.createTextNode('Powered by Valuepitch');
+poweredByLink.parentNode.replaceChild(poweredByText, poweredByLink);
